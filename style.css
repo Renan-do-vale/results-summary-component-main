@@ -8,6 +8,7 @@
 
 body {
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,6 +166,32 @@ button:active{
 .text p{
     text-align: center;
     color: hsla(222, 100%, 96%, 0.753);
+}
+
+@media (max-width: 420px){
+    body{
+        background-color: white;
+    }
+    main {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .summary {
+        border-radius: none;
+        padding: 30px;
+    }
+
+    .result {
+        border-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .attribution {
+        display: none;
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
