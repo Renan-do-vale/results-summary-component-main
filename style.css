@@ -32,7 +32,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 3rem;
     background-color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
