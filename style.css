@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk",Arial;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(222, 100%, 96%, 0.801);
+}
+
+main {
+    max-width: 700px;
+    height: 450px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary {
+    min-width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.summary h1{
+    font-size: 25px;
+}
+
+.form {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0.8rem;  
+}
+.red{
+    background-color: hsla(0, 100%, 67%, 0.32);
+    color: hsl(0, 63%, 49%);
+}
+.yellow {
+    background-color: hsla(39, 100%, 56%, 0.32);
+    color: hsl(39, 81%, 46%)
+}
+.green {
+    background-color: hsla(166, 100%, 37%, 0.32);
+    color: hsl(166, 100%, 37%);
+}
+
+.purple {
+    background-color:hsla(234, 85%, 45%, 0.32);
+    color: hsl(234, 85%, 45%);
+}
+
+.result {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 2rem;
+}
+
+button {
+    border: none;
+    align-self: center;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 18px;
+    border-radius: 20px;
+    background: hsl(241, 81%, 54%);
+    color: white;
+    margin: 0.5rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
